@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #323232;
+    
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &--fluid {
+        max-width: unset;
+        width: 100%;
+    }
+
+    &--no-padding {
+        padding: 0;
+    }
+}
+
+
+
+.none {
+    display: none;
+}

@@ -1,0 +1,102 @@
+.cta {
+    padding-top: 141px;
+    padding-bottom: 144px;
+}
+
+.cta__block {
+    display: flex;
+    justify-content: space-between;
+    border: 20px;
+    align-items: stretch;
+    background-color: #58BEBF;
+    border-radius: 20px;
+}
+
+
+.cta__img img{
+    margin-top: 60px;
+    padding-top: 25px ;
+    padding-right: 25px;
+    background-color: white;
+    border-radius: 0 20px 0 0;
+}
+.cta__text {
+    width: 555px;
+
+    background: url('./../../img/cta/oval-bottom-left.svg') bottom left -186px no-repeat,
+                url('./../../img/cta/oval-top-right.svg') top right no-repeat;
+    
+    padding-left: 96px;
+    box-sizing: border-box;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px; /* 168.75% */
+        letter-spacing: 1.15px;
+        color:#fff;
+        width: 320px;
+    }
+}
+
+.cta__title {
+    color: #FFF;
+    margin-bottom: 15px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px; /* 147.619% */
+    letter-spacing: 0.8px;
+}
+.cta__buttons-row {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.button {
+    &--white {
+        background-color: #fff;
+        color:$black-text;
+    
+        transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+        &:hover {
+            background-color: $black-text;
+            color: #fff;
+        }
+    }
+
+    &--play {
+        padding-left: 50px;
+        position: relative;
+
+
+        &::before {
+
+            content: "";
+            display: block;
+            position: absolute;
+            left:30px;
+            top:50%;
+            transform: translateY(-50%);
+            background-size: initial;
+            background-repeat: no-repeat;
+            background-image: url('./../../img/icons/play.svg');
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+
+
+
+}
+

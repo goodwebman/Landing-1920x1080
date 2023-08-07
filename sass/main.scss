@@ -1,0 +1,24 @@
+// Base
+@import "./base/reset";
+@import "./base/base";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import "./base/vars";
+
+
+// Blocks
+@import "./blocks/nav";
+@import "./blocks/logo";
+@import "./blocks/navigation-list";
+@import "./blocks/header";
+@import "./blocks/form";
+@import "./blocks/button";
+@import "./blocks/clients";
+@import "./blocks/objects";
+@import "./blocks/img-card";
+@import "./blocks/card-info";
+@import "./blocks/cta";
+@import "./blocks/serve";
+@import "./blocks/benefits";
+@import "./blocks/testimonials";
+@import "./blocks/contacts";
+@import "./blocks/footer";

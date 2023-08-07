@@ -1,0 +1,30 @@
+.navigation-list {
+    ul {
+        display: flex;
+        
+    }
+
+    li {
+        margin-right: 42px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    a {
+        color: inherit;
+
+        &:hover {
+            color: $accent-color;
+            
+        }
+
+        &.active {
+            font-weight: 700;
+            color: $accent-color;
+        }
+    }
+
+    
+}
