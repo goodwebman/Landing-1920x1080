@@ -34,17 +34,12 @@
 .footer__nav {
 	display: flex;
 	column-gap: 85px;
-	
-	a {
-		color: $black-text;
-	}
 }
 
 .footer__nav-block {
 	font-size: 14px;
 	li {
 		margin-bottom: 13px;
-		
 	}
 	a:hover {
 		color: $accent-color;
